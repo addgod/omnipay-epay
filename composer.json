@@ -10,10 +10,10 @@
     ],
     "require": {
         "php": ">=5.5",
-        "omnipay/common": "2.*"
+        "omnipay/common": "3.*"
     },
     "require-dev": {
-        "omnipay/tests": "2.*",
+        "omnipay/tests": "3.*",
         "phpmd/phpmd": "2.*",
         "sebastian/phpcpd": "2.*",
         "phploc/phploc": "2.*",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Omnipay\\Epay\\" : "src/"
+            "Omnipay\\Epay\\": "src/"
         }
     },
     "autoload-dev": {
